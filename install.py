@@ -14,7 +14,7 @@ class Colors:
     GREEN = '\e[0;32m\033[1m'
     END = '\033[0m\e[0m'
     RED = '\e[0;31m\033[1m'
-    BLUE = '\e[0;34m\033[1m'
+    BLUE = '\e[0;34m\033[1'
     YELLOW = '\e[0;33m\033[1m'
     PURPLE = '\e[0;35m\033[1m'
     TURQUOISE = '\e[0;36m\033[1m'
@@ -45,6 +45,34 @@ def banner():
     print(f"{Colors.TURQUOISE}╚══════╝╚═╝{Colors.GRAY}░░{Colors.TURQUOISE}╚═╝╚═════╝{Colors.GRAY}░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░{Colors.TURQUOISE}╚═╝{Colors.END}")
     time.sleep(0.05)
     print(f"{Colors.PURPLE}{'-'*80}{Colors.END}")
+
+def banner2():
+    """Muestra el banner del script (segunda versión)."""
+    #os.system("tput civis; clear") #Estos comandos son dificiles de replicar
+    os.system("clear")
+    print(f"\n\t\t{Colors.GREEN}███████{Colors.TURQUOISE}╗{Colors.GRAY}░{Colors.GREEN}█████{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.GREEN}██████{Colors.TURQUOISE}╗{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░░░{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░░░░░░{Colors.GREEN}██████{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░░░░░░░{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GREEN}███{Colors.TURQUOISE}╗{Colors.GRAY}░░░{Colors.GREEN}███{Colors.TURQUOISE}╗")
+    time.sleep(0.05)
+    print(f"\t\t{Colors.GREEN}██{Colors.TURQUOISE}╔════╝{Colors.GREEN}██{Colors.TURQUOISE}╔══{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GREEN}██{Colors.TURQUOISE}╔════╝╚{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GRAY}░░░░░░{Colors.GREEN}██{Colors.TURQUOISE}╔══{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░░{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GREEN}████{Colors.TURQUOISE}╗{Colors.GRAY}░{Colors.GREEN}████{Colors.TURQUOISE}║")
+    time.sleep(0.05)
+    print(f"\t\t{Colors.GREEN}█████{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.GREEN}███████{Colors.TURQUOISE}║╚{Colors.GREEN}█████{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.GREEN}{Colors.TURQUOISE}╚{Colors.GREEN}████{Colors.TURQUOISE}╔╝{Colors.GRAY}░{Colors.GREEN}█████{Colors.TURQUOISE}╗{Colors.GREEN}██████{Colors.TURQUOISE}╔╝{Colors.GRAY}░{Colors.TURQUOISE}╚{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GREEN}████{Colors.TURQUOISE}╗{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GREEN}██{Colors.TURQUOISE}╔{Colors.GREEN}████{Colors.TURQUOISE}╔{Colors.GREEN}██{Colors.TURQUOISE}║")
+    time.sleep(0.05)
+    print(f"\t\t{Colors.GREEN}██{Colors.TURQUOISE}╔══╝{Colors.GRAY}░░{Colors.GREEN}██{Colors.TURQUOISE}╔══{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░{Colors.TURQUOISE}╚═══{Colors.GREEN}██{Colors.TURQUOISE}╗{Colors.GRAY}░░{Colors.TURQUOISE}╚{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GRAY}░░{Colors.TURQUOISE}╚════╝{Colors.GREEN}██{Colors.TURQUOISE}╔═══╝{Colors.GRAY}░░░{Colors.GREEN}████{Colors.TURQUOISE}╔═{Colors.GREEN}████{Colors.TURQUOISE}║{Colors.GRAY}░{Colors.GREEN}██{Colors.TURQUOISE}║╚{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GREEN}██{Colors.TURQUOISE}║")
+    time.sleep(0.05)
+    print(f"\t\t{Colors.GREEN}███████{Colors.TURQUOISE}╗{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GREEN}██████{Colors.TURQUOISE}╔╝{Colors.GRAY}░░░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░░░░░░░░░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░░░░░░░{Colors.TURQUOISE}╚{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GRAY}░{Colors.TURQUOISE}╚{Colors.GREEN}██{Colors.TURQUOISE}╔╝{Colors.GRAY}░{Colors.GREEN}██{Colors.TURQUOISE}║{Colors.GRAY}░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░{Colors.GREEN}██{Colors.TURQUOISE}║")
+    time.sleep(0.05)
+    print(f"\t\t{Colors.TURQUOISE}╚══════╝╚═╝{Colors.GRAY}░░{Colors.TURQUOISE}╚═╝╚═════╝{Colors.GRAY}░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░{Colors.TURQUOISE}╚═╝{Colors.GRAY}░░░░░{Colors.TURQUOISE}╚═╝{Colors.END}")
+    time.sleep(0.05)
+    print(f"\n\t\t\t\t\t      {Colors.GRAY}BY {Colors.PURPLE}Invertebrado")
+    time.sleep(0.05)
+    print(f"\t\t\t\t${Colors.GRAY}PERSONAL PAGE {Colors.YELLOW}https://invertebr4do.github.io")
+    time.sleep(0.05)
+    print(f"\t\t\t\t   {Colors.GRAY}GITHUB {Colors.TURQUOISE}https://github.com/invertebr4do")
+    time.sleep(0.05)
+    print(f"\t\t\t\t  {Colors.GRAY}INSPIRED IN {Colors.RED}s4vitar {Colors.GRAY}BSPWM CONFIGURATIONS")
+    time.sleep(0.05)
+    print(f"\t\t\t{Colors.RED}s4vitar's {Colors.GRAY}YOUTUBE CHANNEL {Colors.RED}https://www.youtube.com/s4vitar")
+    time.sleep(0.05)
+    print(f"\t\t\t {Colors.RED}s4vitar's {Colors.GRAY}TWITCH CHANNEL {Colors.PURPLE}https://www.twitch.tv/S4vitaar{Colors.END}")
 
 def ctrl_c_handler(sig, frame):
     """Maneja la interrupción del script (Ctrl+C)."""
